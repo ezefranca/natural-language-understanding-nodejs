@@ -1,11 +1,11 @@
 ---
 declared-services:
   my-nlu-service:
-    label: natural-language-understanding
+    label: real-cause-of-diabetes-app
     plan: free
 
 applications:
-- name: natural-language-understanding-demo
+- name: real-cause-of-diabetes-app
   path: .
   buildpack: sdk-for-nodejs
   command: npm start
